@@ -7,39 +7,39 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "About",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Tokenomics",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Testimonials",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: send,
+    title: "Lightning-Fast Transactions",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Leveraging the speed and scalability of the Solana blockchain, Shinobi offers near-instantaneous transaction",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: star,
+    title: "Low Transaction Fees",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "With Solana's low transaction fees, Shinobi users can enjoy cost-effective transactions.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: shield,
+    title: "Secure and Transparent",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Built on the Solana blockchain, Shinobi ensures security and transparency through decentralized consensus mechanisms.",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "I've been using Shinobi for a while now, and I'm blown away by the speed and security it offers. ",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Teacher",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Shinobi has completely transformed the way I interact with decentralized finance. The user-friendly interface makes it easy to navigate.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Retail Sales Associate",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "What sets Shinobi apart is its commitment to transparency and community governance. That's something I admire.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Customer Service ",
     img: people03,
   },
 ];
@@ -78,12 +78,12 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Community Members",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "Market Cap",
     value: "$230M+",
   },
 ];
@@ -93,23 +93,23 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
+        name: "Buy our Token",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "View in Market Place",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Join Our Community",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Explore our Telegram Group",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Features",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
@@ -138,20 +138,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  }
 ];
 
 export const socialMedia = [

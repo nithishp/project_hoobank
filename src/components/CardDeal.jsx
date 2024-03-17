@@ -6,12 +6,10 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+      Join the <span className="text-gradient">Shinobi</span> Community Today 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      Ready to experience the future of finance with Shinobi? Getting started is easy. Simply create an account, acquire Shinobi tokens, and start exploring our decentralized ecosystem.
       </p>
 
       <Button styles={`mt-10`} />

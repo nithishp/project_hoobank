@@ -14,19 +14,16 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      Unlocking Value with  <br className="sm:block hidden" /> <span className="text-gradient">Shinobi's</span>  Tokenomics
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+      Shinobi's tokenomics are designed to incentivize participation and reward our community for their contributions. With a fixed supply and a deflationary model, every transaction adds value to the Shinobi ecosystem. 
       </p>
 
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+      {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
         <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
-      </div>
+      </div> */}
     </div>
   </section>
 );
